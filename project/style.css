@@ -1,0 +1,48 @@
+.player-info{
+  border: 1.5px solid black;
+  padding:15px;
+  height: auto;
+  overflow:auto;
+  background: rgb(43,79,106);
+  color: white;
+  border-radius: 0 10px 10px 10px;
+  transition: all 500ms linear 500ms;
+
+}
+.player-info:hover{
+  background:rgba(43 ,79, 106, .5);
+  border-radius: 0 25px 25px 25px;
+    box-shadow: 2px 2px 5px #777;
+}
+#header ~ div {
+    margin-top: 80px
+}
+h3{
+  text-shadow: 2px 2px 5px #888;
+}
+#messi img, #ronaldo img{
+  height: 200px;
+  width: auto;
+  transition: 500ms;
+}
+#messi img:hover, #ronaldo img:hover{
+  transform: scale(1.25);
+
+}
+
+h3{
+  font-family: Zen Tokyo Zoo,serif;
+}
+
+#header p{
+  font-family: Uchen,serif;
+}
+nav{
+  padding:5px;
+}
+.carousel-item{
+
+}
+nav{
+  padding: 35px;
+}
